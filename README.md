@@ -1,19 +1,19 @@
 # Resume Parser and Scoring Web App
 
-A Django-based web application designed to parse and score resumes based on predefined skill criteria. The app uses Python's `pdfminer` library to extract text from PDF resumes, analyzes the content, and scores the resumes based on the skills defined in an XML file.
+A Django-based web application designed to parse and score resumes based on predefined skill criteria. The app uses Python's `pdfminer` library to extract text from PDF resumes, analyzes the content, and scores the resumes based on the skills defined in an YAML file.
 
 ## Features
 
 - **Resume Parsing**: Extracts text from PDF resumes using `pdfminer`.
 - **Skill Scoring**: Scores resumes based on predefined skill keywords stored in an YAML file.
-- **Customizable Criteria**: Easily modify the XML file to define or update the skills and keywords for scoring.
+- **Customizable Criteria**: Easily modify the YAML file to define or update the skills and keywords for scoring.
 - **User-Friendly Interface**: Simple and intuitive web interface to upload and analyze resumes.
 
 ## How It Works
 
 1. The user uploads a resume in PDF format.
 2. The app extracts text from the PDF using `pdfminer`.
-3. The extracted text is analyzed against the skill keywords defined in the XML file.
+3. The extracted text is analyzed against the skill keywords defined in the YAML file.
 4. The resume is scored based on the presence and relevance of the skills.
 5. The results are displayed to the user.
 
