@@ -5,7 +5,7 @@ A Django-based web application designed to parse and score resumes based on pred
 ## Features
 
 - **Resume Parsing**: Extracts text from PDF resumes using `pdfminer`.
-- **Skill Scoring**: Scores resumes based on predefined skill keywords stored in an XML file.
+- **Skill Scoring**: Scores resumes based on predefined skill keywords stored in an YAML file.
 - **Customizable Criteria**: Easily modify the XML file to define or update the skills and keywords for scoring.
 - **User-Friendly Interface**: Simple and intuitive web interface to upload and analyze resumes.
 
